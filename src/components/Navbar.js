@@ -88,10 +88,10 @@ export function NavbarDefault() {
       {/* Mobile Menu */}
       <div
         ref={menuRef}
-        className={`fixed top-16 left-0 right-0 bg-gradient-to-b from-gray-800 via-gray-900 to-black z-30 transform ${
+        className={`fixed top-6 sm:top-2 md:top-16 left-0 h-24 right-0 bg-gradient-to-b from-gray-800 via-gray-900 to-black z-30 transform ${
           isOpen ? "translate-y-0" : "-translate-y-full"
         } transition-transform duration-300 ease-in-out lg:hidden`}
-        style={{ height: "100px" }} // Adjust height based on content
+        // style={{ height: "100px" }} // Adjust height based on content
       >
         {/* Close Button */}
         <button
