@@ -10,6 +10,9 @@ import Rpic3 from "../pics/recent3-removebg-preview.png";
 import Rpic4 from "../pics/recents4.png";
 import Rpic5 from "../pics/recents5.png";
 import Rpic6 from "../pics/recents6.png";
+import Spic1 from "../pics/mobile.jpeg";
+import Spic2 from "../pics/fashion.jpeg";
+import Spic3 from "../pics/electronics.png";
 
 const R_products = [
   {
@@ -40,7 +43,7 @@ const R_products = [
   {
     name: "Oxford Formal Shoes",
     price: "1,299/-",
-    image: Rpic6
+    image: Rpic6,
   }
 ];
 
@@ -49,19 +52,19 @@ const OIYS = [
         name: "Fashion",
         price: '35%',
         description: "Enjoy a fantastic 35% off on all fashion items. Upgrade your wardrobe with the latest trends and styles. Don't miss out on this limited-time offer!",
-        image: "https://via.placeholder.com/300x200?text=Fashion+Sale"
+        image: Spic2
       },
       {
-        name: "Mobiles and Accessories",
+        name: "Mobiles",
         price: '45%',
         description: "Get a whopping 45% off on all mobiles and accessories. Find the perfect phone and essential accessories at unbeatable prices.",
-        image: "https://via.placeholder.com/300x200?text=Mobiles+and+Accessories+Sale"
+        image: Spic1
       },
       {
         name: "Home Appliances",
         price: '53%',
         description: "Massive 53% off on a wide range of home appliances. Upgrade your home with the latest gadgets and appliances at incredible discounts.",
-        image: "https://via.placeholder.com/300x200?text=Home+Appliances+Sale"
+        image: Spic3
       }
 ]
 
@@ -121,7 +124,7 @@ const responsive = {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
