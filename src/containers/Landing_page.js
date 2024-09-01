@@ -50,20 +50,20 @@ const R_products = [
 const OIYS = [
     {
         name: "Fashion",
-        price: '35%',
-        description: "Enjoy a fantastic 35% off on all fashion items. Upgrade your wardrobe with the latest trends and styles. Don't miss out on this limited-time offer!",
+        price: '80%',
+        description: "Enjoy a fantastic 80% off on all fashion items. Upgrade your wardrobe with the latest trends and styles. Don't miss out on this limited-time offer!",
         image: Spic2
       },
       {
         name: "Mobiles",
-        price: '45%',
-        description: "Get a whopping 45% off on all mobiles and accessories. Find the perfect phone and essential accessories at unbeatable prices.",
+        price: '70%',
+        description: "Get a whopping 70% off on all mobiles and accessories. Find the perfect phone and essential accessories at unbeatable prices.",
         image: Spic1
       },
       {
         name: "Home Appliances",
-        price: '53%',
-        description: "Massive 53% off on a wide range of home appliances. Upgrade your home with the latest gadgets and appliances at incredible discounts.",
+        price: '70%',
+        description: "Massive 70% off on a wide range of home appliances. Upgrade your home with the latest gadgets and appliances at incredible discounts.",
         image: Spic3
       }
 ]
