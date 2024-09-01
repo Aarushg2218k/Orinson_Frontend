@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Welcome_Carousel from "./components/Carousel";
+import Footer from "./components/footer";
+import Slider from "./components/Slider";
+import Landing_page from "./containers/Landing_page";
+
+const { NavbarDefault } = require("./components/Navbar");
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+     <NavbarDefault></NavbarDefault>
+     <Landing_page></Landing_page>
+     {/* <Slider></Slider> */}
+     <Footer></Footer>
+     </>
   );
 }
 
