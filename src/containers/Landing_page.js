@@ -162,7 +162,7 @@ const responsive = {
         <p className='text-3xl mt-4 pt-4 ms-5 font-semibold text-gray-800'>
             Week In A Year Sale
         </p>
-        <div className='flex '>
+        <div className='flex flex-wrap md:flex-nowrap '>
         {
             OIYS.map((product,index)=>(
                 <Slider key={index} data={product} />

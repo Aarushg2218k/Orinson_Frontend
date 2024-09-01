@@ -28,11 +28,11 @@ export function NavbarDefault() {
 
   return (
     <nav className="bg-gray-800 shadow-md rounded-b-xl">
-      <div className="container mx-auto flex items-center justify-between p-4">
+      <div className="container mx-auto flex items-center justify-between md:py-4 px-4">
         {/* Logo and Company Name */}
         <div className="flex items-center space-x-4">
-          <img src={logo} alt="Company Logo" className="h-12 w-12" />
-          <span className="text-amber-100 text-3xl font-bold">ShopNest</span>
+          <img src={logo} alt="Company Logo" className="md:h-12 md:w-12 h-6 w-6" />
+          <span className="text-amber-100 md:text-3xl text-sm font-bold">ShopNest</span>
         </div>
 
         {/* Navigation Links for Large Screens */}
