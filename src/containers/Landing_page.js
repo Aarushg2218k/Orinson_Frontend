@@ -105,7 +105,7 @@ const off_70 = [
       category: "Home Appliances"
     },
     {
-      name: "Robot Vacuum Cleaner",
+      name: "Vacuum Cleaner",
       price: "$149.99",
       originalPrice: "$499.99",
       image: "https://example.com/images/robot-vacuum-cleaner.jpg",
