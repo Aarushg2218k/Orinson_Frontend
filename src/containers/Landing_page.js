@@ -13,6 +13,12 @@ import Rpic6 from "../pics/recents6.png";
 import Spic1 from "../pics/mobile.jpeg";
 import Spic2 from "../pics/fashion.jpeg";
 import Spic3 from "../pics/electronics.png";
+import off701 from "../pics/Sunglasses.jpeg";
+import off702 from "../pics/Handbag.jpg";
+import off703 from "../pics/phone X pro.jpg";
+import off704 from "../pics/Earbud.jpg";
+import off705 from "../pics/Air purifier.jpg";
+import off706 from "../pics/Vacumm cleaner.jpg";
 
 const R_products = [
   {
@@ -73,42 +79,42 @@ const off_70 = [
       name: "Sunglasses",
       price: "$29.99",
       originalPrice: "$99.99",
-      image: "https://example.com/images/fashionable-sunglasses.jpg",
+      image: off701,
       category: "Fashion"
     },
     {
       name: "Designer Handbag",
       price: "$89.99",
       originalPrice: "$299.99",
-      image: "https://example.com/images/designer-handbag.jpg",
+      image: off702,
       category: "Fashion"
     },
     {
       name: "Smartphone X Pro",
       price: "$149.99",
       originalPrice: "$499.99",
-      image: "https://example.com/images/smartphone-x-pro.jpg",
+      image: off703,
       category: "Mobiles and Accessories"
     },
     {
       name: "Bluetooth Earbuds",
       price: "$49.99",
       originalPrice: "$169.99",
-      image: "https://example.com/images/bluetooth-earbuds.jpg",
+      image: off704,
       category: "Mobiles and Accessories"
     },
     {
       name: "Air Purifier",
       price: "$89.99",
       originalPrice: "$299.99",
-      image: "https://example.com/images/air-purifier.jpg",
+      image: off705,
       category: "Home Appliances"
     },
     {
       name: "Vacuum Cleaner",
       price: "$149.99",
       originalPrice: "$499.99",
-      image: "https://example.com/images/robot-vacuum-cleaner.jpg",
+      image: off706,
       category: "Home Appliances"
     }
   ];
